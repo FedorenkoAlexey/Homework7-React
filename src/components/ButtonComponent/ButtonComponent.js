@@ -7,7 +7,7 @@ class Button extends React.Component {
   }
 
   push = e => {
-    this.setState({ counter: ++this.state.counter });
+    this.setState({ counter: ++e.target.value });
   };
 
   render() {
