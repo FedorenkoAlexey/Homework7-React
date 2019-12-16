@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./components/button/button";
-import Text from "./components/text/text";
+import Button from "./components/ButtonComponent/ButtonComponent";
+import Text from "./components/TextComponent/TextComponent";
 
 import "./App.css";
 

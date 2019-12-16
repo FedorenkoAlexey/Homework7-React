@@ -3,13 +3,12 @@ import React from "react";
 class Button extends React.Component {
   constructor(props) {
     super(props);
-    this.push = this.push.bind(this);
     this.state = { counter: 0 };
   }
 
-  push() {
+  push = e => {
     this.setState({ counter: ++this.state.counter });
-  }
+  };
 
   render() {
     return (
